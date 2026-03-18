@@ -7,4 +7,5 @@ int main(){ int a,b ;
     scanf("%d", & b);
     printf("The product of %d \n", a*b);
     return 0;
+
 }
