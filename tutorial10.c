@@ -1,4 +1,4 @@
-#include <stdio.h> //yahan left shift and stdio ke gap nahi dena hai
+#include <stdio.h> //yahan left shift and stdio ke beech gap nahi dena hai
 int main(){
     int age;
     printf("Enter your age\n ");
