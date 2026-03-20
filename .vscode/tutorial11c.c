@@ -4,7 +4,7 @@ int main() {
     printf("Enter your marks:\n");
     scanf("%d", &marks);
     switch (marks) {
-        case  300 ... 500:
+        case  300 ... 500:  //yahan 300 ke baad space fir 3 dots ... fir space fir 500 likhna hi hoga
             printf("you got 1st division.\n");
             break;
             case 225 ... 299:
