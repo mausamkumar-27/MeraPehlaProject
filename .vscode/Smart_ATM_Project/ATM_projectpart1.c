@@ -10,7 +10,7 @@ int main() {
         printf("\n--ATM Menu---\n");
         printf("1. Balance Check\n");
         printf("2.Withdraw Cash\n");
-        printf("3.Cash Deposit\n");
+        printf("3.Deposit Cash\n");
         printf("4.Exit\n");
         printf("Enter your choice: \n");
         scanf("%d", &Choice); 
