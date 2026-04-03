@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 int main() {
     char Language;
     int PIN=1234;
@@ -32,7 +32,7 @@ int main() {
                 if (Amount > Balance) {
                 printf("Insufficient Balance\n");
                 } else {
-                    Balance= Balance-Amount; // ye balance ko update kr dega
+                    Amount <= Balance;
                     printf("Please collect your cash\n");
                     printf("Your current balance is: %d\n", Balance - Amount);
                 }
@@ -40,19 +40,21 @@ int main() {
                 case 3:
                 printf("Enter your amount to deposit: \n");
                 scanf("%d", &Amount);
-                Balance=Balance+Amount; // ye balance ko update kr dega
                 printf("Your current balance is: %d\n", Balance + Amount);
                 break;
                 case 4:
-                printf("thank you!\n");
-                run=0;
+                printf("Enquiry\n");
                 break;
                 default:
                 printf("Invalid choice\n");
                 break;
             }  //switch wala bracket
         }   //while wala bracket,yahin pr close kiya bcz mujhe bs itna hi part ko repeat krna tha
+    for(run==0;run<=3;run++){
+        printf("Enter correct PIN:\n");
+        scanf("%d",&PIN);
+    }
     }   // if PIN wala bracket
 }    // if language wala bracket
-        return 0;
-    }
+return 0;
+}
