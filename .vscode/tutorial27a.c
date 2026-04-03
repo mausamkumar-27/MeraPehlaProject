@@ -12,6 +12,6 @@ int main(){
     printf("the value at address of 1st element of array is %d\n",*(arr));
     printf("the value at address of 2nd element of array is %d\n",*(&arr[1]));
     printf("the value at address of 2nd element of array is %d\n",arr[1]);
-    printf("the value at address of 2nd element of array is %d\n",*(&arr+1));
+    printf("the value at address of 2nd element of array is %d\n",*(arr+1));
     return 0;
 }

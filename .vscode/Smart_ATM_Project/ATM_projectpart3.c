@@ -22,6 +22,11 @@ int main() {
                 printf("4. Enquiry\n");
                 printf("Enter your choice\n");
                 scanf("%d", &Choice);
+        //} else {    ELSE KA TB USE HOGA JB IF KA BRACKET BAND HO JAAYE
+                //PIN==0;
+                //printf("Enter correct PIN\n");
+                //scanf("%d",&PIN);
+           // }
             switch (Choice) {
                 case 1:
                 printf("Your current balance is: %d\n", Balance);
@@ -50,10 +55,10 @@ int main() {
                 break;
             }  //switch wala bracket
         }   //while wala bracket,yahin pr close kiya bcz mujhe bs itna hi part ko repeat krna tha
-    for(run==0;run<=3;run++){
-        printf("Enter correct PIN:\n");
-        scanf("%d",&PIN);
-    }
+    //for(run==0;run<=3;run++){
+        //printf("Enter correct PIN:\n");
+        //scanf("%d",&PIN);
+   // }
     }   // if PIN wala bracket
 }    // if language wala bracket
 return 0;
