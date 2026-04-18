@@ -12,6 +12,7 @@ int main()
 {
 char str[34];
 gets(str);
+puts(str);
 printf("%s",str);
 return 0;
 }
