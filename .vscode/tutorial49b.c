@@ -1,6 +1,7 @@
 #include <stdio.h>
 void counter() {
-    static int count = 0;
+  // static int count = 0;
+  static int count;
     count++;
     printf("Counter ki value hai: %d\n", count);
 }
