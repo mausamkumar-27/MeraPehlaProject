@@ -10,8 +10,8 @@ int* functionDangling()
     return &sum;
 }
 
-int main()
-{
+//int main()
+
     // Case 1: De allocation of a memory block
     int *ptr= (int *) malloc(7* sizeof(int));
     ptr[0] = 34;
@@ -25,13 +25,13 @@ int main()
 
     int * danglingPtr3;
     // Case 3: If a variable goes out of scope
-    {
+    //{
         int a = 12;
 
         danglingPtr3 = &a;
-    } 
+    //} 
     // Here variable a goes out of scope which means danglingPtr3 is pointing to a location which is freed and hence danglingPtr3 is now a dangling pointer
 
 
-    return 0;
-}
+    //return 0;
+//} 
