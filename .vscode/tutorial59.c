@@ -3,6 +3,7 @@
 #include "tutorial54b.c"
 int main() {
     int var = 5;
+    int *ptr = functiondangling();
     printf("The value of var is %d\n", var);
     return 0;
 }
